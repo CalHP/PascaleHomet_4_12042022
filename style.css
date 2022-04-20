@@ -709,13 +709,13 @@ h2 {
     line-height: 1.4em;
 }
 
-h3 {
+h3,
+.titre2 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
-
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -780,7 +780,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #212121!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -822,9 +822,43 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation_1.png");
 }
-
+.titre1{
+    font-size: 22px;
+    width: 61%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.div-citation{
+    width: 74%;
+}
+.citation{
+    color:#575757 !important;
+    font-style: italic;
+    font-size: 26px;
+    line-height: 25px;
+}
+.auteur-citation{
+    color: #6d6d6d !important;
+    font-size: 25px;
+    line-height: 0;
+    margin-top: -13px;
+  }
+.exemples-de-realisation{
+    color:#575757 !important;
+    font-size: 25px;
+}
+.contrast{
+    color: #1F1F1F!important;
+}
+.contrast-banniere-bas{
+    color: #F8DDCE!important;
+}
+.color-contrast{
+    color: #212121!important;
+}
+/* début mediaqueries */
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
